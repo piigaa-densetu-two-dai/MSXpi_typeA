@@ -33,13 +33,12 @@ windowsのcopyコマンドを使用する例
 例: windowsコマンドプロンプト上で
 uf2conv.exe firmware.bin firmware.uf2
 
-uf2conv.exeはhttps://github.com/piigaa-densetu-two-dai/MSXpiにあります。
+uf2conv.exeはhttps://github.com/piigaa-densetu-two-dai/MSXpi_typeAにあります。
 
 4. MSXに刺さっていない状態のMSXπをブートモードでPCに接続します。
 
 MSXπのBOOTSELボタンを押しながらPCとUSB接続して下さい。
 接続が成功するとドライブが認識されます。
-HOSTジャンパの状態は不問です。
 
 5. MSXπに3で作成したfirmware.uf2ファイルを書き込みします。
 
@@ -54,7 +53,6 @@ HOSTジャンパの状態は不問です。
 7. MSXπにUSBメモリを取り付けて完了
 
 USB変換アダプター(OTGアダプター)が必要です。100円ショップ等で入手して下さい。
-MSXπのHOSTジャンパをショートして下さい。
 
 Nextorのセットアップ方法についてはこちらを参考にして下さい。
 https://github.com/Konamiman/Nextor/blob/v2.1/docs/Nextor%202.1%20Getting%20Started%20Guide.md
